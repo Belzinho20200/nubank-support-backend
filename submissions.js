@@ -1,7 +1,7 @@
 // routes/submissions.js
 const express = require('express');
 const router = express.Router();
-const db = require('../../config/db');
+const db = require('../config/db');
 
 // @route   POST /api/submissions
 // @desc    Criar uma nova submissão
