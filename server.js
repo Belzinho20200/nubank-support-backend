@@ -6,7 +6,7 @@ const path = require('path');
 require('dotenv').config();
 
 // Importar configuração do banco de dados - CAMINHO CORRIGIDO
-const db = require('../config/db');
+const db = require('./config/db');
 
 // Inicializar Express
 const app = express();
